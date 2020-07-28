@@ -8,7 +8,6 @@ require 'minitest/pride'
 
 class StringTest < Minitest::Test
   def test_1
-    # skip
     name = "alice"
     # In place of the line below, call a method on the name variable
     # defined above to acheive the expected output.
@@ -19,7 +18,6 @@ class StringTest < Minitest::Test
   end
 
   def test_2
-    # skip
     name = "aLiCe"
     # In place of the line below, call a method to achieve the expected output.
     actual = name.upcase
@@ -29,7 +27,6 @@ class StringTest < Minitest::Test
   end
 
   def test_3
-    # skip
     name = "AlIcE"
     # In place of the line below, call a method to achieve the expected output.
     actual = name.downcase
@@ -39,7 +36,6 @@ class StringTest < Minitest::Test
   end
 
   def test_4
-    # skip
     rhyme = "peter piper picked a peck of picked peppers"
     # In place of the line below, call a method to achieve the expected output.
     actual = rhyme.reverse
@@ -49,7 +45,6 @@ class StringTest < Minitest::Test
   end
 
   def test_5
-    # skip
     word = "ticking"
     # In place of the line below, call a method to achieve the expected output.
     actual = word.gsub("t", "k")
@@ -59,7 +54,6 @@ class StringTest < Minitest::Test
   end
 
   def test_6
-    # skip
     word = "ticking"
     # In place of the line below, call a method to achieve the expected output.
     actual = word.gsub('ti', 'clo')
@@ -69,7 +63,6 @@ class StringTest < Minitest::Test
   end
 
   def test_7
-    # skip
     words = "five sleepy kittens"
     # In place of the line below, call a method to achieve the expected output.
     actual = words.gsub('e', '*')
@@ -79,7 +72,6 @@ class StringTest < Minitest::Test
   end
 
   def test_8
-    # skip
     greeting = "Hello!!"
     # In place of the line below, call a method to achieve the expected output.
     actual = greeting.chop
@@ -89,7 +81,6 @@ class StringTest < Minitest::Test
   end
 
   def test_9
-    # skip
     greeting = "Hello!!\n"
     # In place of the line below, call a method to achieve the expected output.
     actual = greeting.chomp
@@ -99,7 +90,6 @@ class StringTest < Minitest::Test
   end
 
   def test_10
-    # skip
     greeting = "Hello!!\n\n"
     # In place of the line below, call a method to achieve the expected output.
     actual = greeting.chomp
@@ -109,7 +99,6 @@ class StringTest < Minitest::Test
   end
 
   def test_11
-    # skip
     rhyme = "eeny, meeny, miny, moe"
     # In place of the line below, call a method to achieve the expected output.
     actual = rhyme.delete('e')
@@ -119,7 +108,6 @@ class StringTest < Minitest::Test
   end
 
   def test_12
-    # skip
     rhyme = "eeny, meeny, miny, moe"
     # In place of the line below, call a method to achieve the expected output.
     actual = rhyme.gsub(/[eio]/, "")
@@ -129,7 +117,6 @@ class StringTest < Minitest::Test
   end
 
   def test_13
-    # skip
     greeting = "Hello World!"
     # In place of the line below, call a method to get the number of characters in the string
     actual = greeting.length
@@ -139,7 +126,6 @@ class StringTest < Minitest::Test
   end
 
   def test_14
-    # skip
     greeting = "Hello World!\n"
     # In place of the line below, call a method to get the number of characters in the string
     actual = greeting.length
@@ -149,7 +135,6 @@ class StringTest < Minitest::Test
   end
 
   def test_15
-    # skip
     greeting = "Hello       World!"
     # In place of the line below, call a method to get the number of characters in the string
     actual = greeting.length
@@ -159,7 +144,6 @@ class StringTest < Minitest::Test
   end
 
   def test_16
-    # skip
     greeting = "Hello World!"
     # In place of the line below, call a method to get the number of 'o' in the string
     actual = greeting.count('o')
@@ -169,7 +153,6 @@ class StringTest < Minitest::Test
   end
 
   def test_17
-    # skip
     greeting = "Hello World!"
     # In place of the line below, call a method to get the number of vowels in the string
     actual = greeting.count('aeiou')
@@ -179,7 +162,6 @@ class StringTest < Minitest::Test
   end
 
   def test_18
-    # skip
     greeting = "Hello World!"
     # In place of the line below, call a method to check if the string includes 'llo'
     actual = greeting.include?('llo')
@@ -189,7 +171,6 @@ class StringTest < Minitest::Test
   end
 
   def test_19
-    # skip
     greeting = "Hello World!"
     # In place of the line below, call a method to check if the string includes 'lol'
     actual = greeting.include?('lol')
@@ -199,7 +180,6 @@ class StringTest < Minitest::Test
   end
 
   def test_20
-    # skip
     greeting = "Hello World, my name is"
     name = "Harry Potter"
     # In place of the line below, use string manipulation to combine the
@@ -209,7 +189,6 @@ class StringTest < Minitest::Test
   end
   
   def test_21
-    # skip
     # See if you can use another method than the last test to achieve the same goal:
     greeting = "Hello World, my name is"
     name = "Harry Potter"
@@ -220,7 +199,6 @@ class StringTest < Minitest::Test
   end
   
   def test_22
-    # skip
     greeting = "Hello World, my name is"
     name = "Harry Potter"
     # Again, using a different method:
@@ -231,7 +209,6 @@ class StringTest < Minitest::Test
   end
   
   def test_23
-    # skip
     greeting = "Hello World, my name is"
     name = "Harry Potter"
     # Once more, using a different method:
@@ -242,7 +219,6 @@ class StringTest < Minitest::Test
   end
 
   def test_24
-    # skip
     phrase = "  \n\t to the moon\n\n\t    "
     # In place of the line below, call a method to acheive the expected outcome
     actual = phrase.strip
